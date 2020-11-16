@@ -31,12 +31,12 @@ export default function MissionCard(props) {
         </p>
         <p className="card-text"><span className="font-weight-bold">Successful Launch: </span>
           <span className="text-primary">
-            {launch.launchSuccess}
+            {launch.launchSuccess ? "true" : "false"}
           </span>
         </p>
         <p className="card-text"><span className="font-weight-bold">Successfull Landing: </span>
           <span className="text-primary">
-            {launch.landSuccess}
+            {launch.landSuccess ? "true" : "false"}
           </span>
         </p>
       </div>
