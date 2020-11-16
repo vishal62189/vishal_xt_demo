@@ -1,0 +1,56 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+.myrow {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+  .mycol-6 {
+    flex: 0 0 50%;
+    max-width:50%;
+  }
+  .mycol {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+@media (min-width: 700px ) {
+  .mycol-md-3 {
+    flex: 0 0 25%;
+    max-width:25%;
+  }
+  .mycol-md-9 {
+    flex: 0 0 75%;
+    max-width:75%;
+  }
+  .mycol-md-6 {
+    flex: 0 0 50%;
+    max-width:50%;
+  }
+}
+
+@media (min-width: 1024px ) {
+  .mycol-lg-3 {
+    flex: 0 0 25%;
+    max-width:25%;
+  }
+  .mycol-lg-2 {
+    flex: 0 0 16.667%;
+    max-width:16.667%;
+  }
+  .mycol-lg-10 {
+    flex: 0 0 83.333%;
+    max-width:83.333%;
+  }
+}
+
+
