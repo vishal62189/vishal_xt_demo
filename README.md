@@ -7,7 +7,7 @@ Important API information that would help you to fetch the data
 Demo: [Click to see DEMO](https://demovishal.herokuapp.com/)
 
 ## Lighthouse score 
-![Application Result]()
+![Application Lighthouse Report](https://github.com/vishal62189/vishal_xt_demo/blob/main/demovishal_lighthouse_report.png)
 
 ## Technologies Used
 
